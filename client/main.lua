@@ -1,3 +1,4 @@
+local QBCore = exports['qb-core']:GetCoreObject()
 notLoaded, currentStreetName, intersectStreetName, lastStreet, speedlimit, nearbyPeds, isPlayerWhitelisted, playerPed, playerCoords, job, rank, firstname, lastname, phone = true
 local canSendDistress  = true
 -- Framework Stuff ---------------------------------------------------------------

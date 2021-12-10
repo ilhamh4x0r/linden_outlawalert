@@ -1,4 +1,6 @@
-# Unmaintained, and not compatible with QBCore (it never has been)
+# compatible with QBCore and keeping the basic maintained. im not offering support or adding any extra things to it.
+# Just keeping it alive as i know alot of people really like this script. Please read what ever is underneath here 
+# carefully. 
 
 <p align="center"><img src="https://i.imgur.com/Ome5KDF.png"/><br>
 <hr>

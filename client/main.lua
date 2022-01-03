@@ -192,11 +192,12 @@ end
 RegisterNetEvent('wf-alerts:clNotify')
 AddEventHandler('wf-alerts:clNotify', function(pData)
 	if pData ~= nil then
+		PlayerData = QBCore.Functions.GetPlayerData()
 		local sendit = false
 		for i=1, #pData.recipientList do
 			if pData.recipientList[i] == PlayerData.job.name then sendit = true break end
 		end
-		if sendit then
+		if sendit and PlayerData ~= nil then
 			Citizen.Wait(1500)
 			if not pData.length then pData.length = 4000 end
 			pData.street = getStreetandZone(vector3(pData.coords.x, pData.coords.y, pData.coords.z))
